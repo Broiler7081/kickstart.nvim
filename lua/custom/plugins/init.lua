@@ -17,5 +17,11 @@ return {
       -- See Configuration section for options
     },
     'habamax/vim-asciidoctor',
+    {
+      'shuntaka9576/preview-asciidoc.vim',
+      dependencies = {
+        'vim-denops/denops.vim',
+      },
+    },
   },
 }
